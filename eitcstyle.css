@@ -1,0 +1,321 @@
+/*clearfix*/
+#ng-app .group:after {
+  content: "";
+  display: table;
+  clear: both;
+  border:none;
+  background:none;
+}
+
+#ng-app{
+	padding-bottom:20px;
+	min-height:120px;
+	min-width:300px;
+	font-size:16px;
+}
+
+#ng-app .group{
+	border:none;
+	background:none;
+	background-image:none;
+	margin:0px;
+}
+
+#ng-app ul{
+	clear:both;
+	float:left;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#ng-app li{
+	background:none;
+	list-style-type:none;
+}
+
+#ng-app h1,#ng-app h2,#ng-app h3,#ng-app h4,#ng-app h5,#ng-app a{
+	font-family:Arial;
+	font-weight:500;
+	padding:4px 10px 4px 0px;
+	margin-bottom:5px;
+	color:rgb(5,55,105);
+	display:block;
+	clear:both;
+	float:left;
+}
+
+#ng-app .lato{font-family:Lato,Arial,Helvetica;}
+#ng-app .light{font-weight:300;}
+#ng-app .lato p{font-family:Lato,Arial,Helvetica;}
+#ng-app .white{color:#ffffff;} 
+#ng-app .dark{color:#163a4c;}  
+#ng-app .fs-big{font-size:170%;}
+#ng-app .fs-2x{font-size:200%;}
+
+#ng-app h1{font-size:250%;}
+#ng-app h2{font-size:150%;padding-top:15px;}
+#ng-app h2 i{color:#FFB33C;font-style:normal;}
+#ng-app h3,#ng-app a{font-size:120%;text-decoration:none;}
+#ng-app h4, #ng-app h5{font-size:80%;padding:3px 3px 3px 0px;margin:2px 0px 2px 0px;}
+
+#ng-app p,#ng-app select,#ng-app a,#ng-app input,#ng-app ul li{
+	font-family: Arial;
+	font-weight:normal;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	color:rgb(50,50,50);
+	display:block;
+}
+
+
+#ng-app ul li a{
+	font-size:100%;
+}
+
+#ng-app a {color:rgb(5,55,105);}
+
+#ng-app p{padding-left:0px;}
+
+#ng-app select, #ng-app input[type=text]{
+	background-image:none;
+	background:none;
+	border:none;
+	outline:none;
+}
+
+#ng-app div.group.inner.menu{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#ng-app .options p{
+	font-style:italic;
+}
+
+#ng-app .float-left{
+	float:left;
+	margin-right:15px;
+}
+
+#ng-app .menu-item{
+	float:left;
+	padding:2px 5px 2px 5px;
+	margin:1px 2px 1px 0px;
+	border:0px solid #d1d1d1;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	pointer-events:auto;
+	border-radius:5px; 
+}
+
+#ng-app .menu-item:hover{
+	background-color:#FFB33C;
+}
+
+#ng-app input[type=checkbox]{
+	margin-top:1px;
+	margin-left:6px;
+	margin-right:2px;
+}
+
+#ng-app input[type=text].input-alone{
+	padding:2px 5px 2px 5px;
+	margin-top:-3px;
+	background-color: #ffffff;
+	/*box-shadow: inset 0 0 0px 1px #f5f5f5;*/
+	border: 1px solid #d1d1d1;
+	border-radius:0px;
+	min-width:200px;
+	max-width:250px;
+}
+
+#ng-app .p100{
+	width:100%;
+}
+
+#ng-app .resourceBox{
+	width:100%;
+	padding:0px;
+	margin:8px 0% 11px 0px;
+	position:relative;
+	min-width:250px;
+	float:left;
+	/*display:inline-block;*/
+	/*box-shadow: 1px 1px 2px 1px #dddddd;*/
+}
+
+#ng-app .resourceBox .inner{
+	padding:5px 20px 11px 15px;
+	background-color: #eeeeee;
+	/*box-shadow: inset 0 0 0px 1px #f5f5f5;*/
+	border: 1px solid #d1d1d1;
+	border-radius:0px;
+	position:relative;
+}
+
+#ng-app .texture{
+	background-color:#ffffff;
+	/*background:url('./squairy_light.png');*/
+}
+
+#ng-app .resourceBox .title{
+	color:rgb(5,55,105);
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#ng-app .profileLink{
+	color:rgb(5,55,105);
+	font-style:italic;
+}
+
+#ng-app .button{
+	width:96%;
+	height:18px;
+	padding:3px 2% 3px 2%;
+	margin:0px;
+	float:left;
+	cursor:pointer;
+	list-style-type:none;
+	list-style-image: none;
+	background-color:#43ACE6;
+	border-radius:5px;
+	font-size:87.5%;
+}
+
+
+
+#ng-app .button:hover{background-color:#FFB33C;}
+
+#ng-app .button div{
+	border-radius:5px;
+	width:100%;
+	height:100%;
+	margin:0px;
+	background:none;
+	background-image:none;
+	/*display:table*/;
+}
+
+#ng-app .button div p{color:#ffffff;vertical-align:bottom;pointer-events:none;text-align:left;}
+/*display:table-cell;*/
+
+#ng-app .button:hover div p{color:#ffffff;}
+
+#ng-app .buttons{
+	margin-bottom:15px;
+	width:38%;
+	height:260px;
+	padding:10px 1% 10px 1%;
+	float:left;
+	background-color:#43ACE6;
+}
+
+#ng-app .metroSelect{
+	width:56%;
+	height:260px;
+	background:#1E4D66;
+	padding:10px 1% 10px 1%;
+	float:left;
+	margin-right:2%;
+	position:relative;
+	left:0px;
+	top:0px;
+	overflow:hidden;
+}
+
+#ng-app .button:first-child{margin-left:0px;}
+#ng-app .button.blue{background-color:#43ACE6;}
+#ng-app .button.yellow{background-color:#F8D64D;}
+#ng-app .button.green{background-color:#9FC516;}
+
+#ng-app .no-select{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+/*RESPONSIVE PORTION*/
+#ng-app{width:950px;}
+/*"not bigger than"*/
+@media (max-width:10000px){
+	#ng-app{
+		width:950px;
+	}
+
+
+	#ng-app select{
+		width: 100%;
+	}
+}
+
+@media (max-width:950px){
+	#ng-app{
+		width:100%;
+	}
+
+
+	#ng-app select{
+		width: 100%;
+	}
+}
+
+
+@media (max-width:550px){
+	#ng-app{
+		width:100%;
+	}
+
+	#ng-app .buttons,#ng-app .metroSelect{
+		margin:0px 0px 10px 0px;
+		width:98%;
+	}
+
+	#ng-app select{
+		width:100%;
+	}
+}
+
+/**********************************************************************/
+
+.content .content-inner .interactive .top .section div.primary{
+	padding-left:0px;
+}
+
+.primary .metadata .article-type{
+	display:none;
+}
+
+/**********************************************************************/
+
+/*ANIMATION*/
+
+.ng-hide-remove,.ng-enter{
+	opacity: 0;
+	 -webkit-transition:all ease 0.25s;
+	  -moz-transition:all ease 0.25s;
+	  -o-transition:all ease 0.25s;
+	  transition:all ease 0.25s;
+	  display:block!important;
+}
+
+.ng-hide-remove.ng-hide-remove-active{
+  opacity:1;
+  display:none;
+}
+ 
+.ng-enter,
+.ng-leave.ng-leave-active {
+  opacity:0;
+  height:0%;
+}
+.ng-leave,
+.ng-enter.ng-enter-active {
+  opacity:1;
+  height:100%;
+}

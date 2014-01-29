@@ -1,0 +1,311 @@
+[
+ {
+ "PID": 20110224,
+"Product": "Metropolitan Areas and the Next Economy: A 50-State Analysis",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Papers/2011/2/24%20states%20berube%20nadeau/",
+"Naming": "State",
+"NamingDescriptive": "State Name.pdf",
+"States": true,
+"Metros": false,
+"Authors": [
+ "Alan Berube",
+"Carey Anne Nadeau" 
+],
+"Description": "A look at 2009 data on U.S. metropolitan areas' contribution to state populations and economies, including a focus on key attributes that can drive the next round of U.S. economic growth.",
+"Keywords": "next economy" 
+},
+{
+ "PID": 20110512,
+"Product": "Missed Opportunity: Transit and Jobs in Metropolitan America",
+"Dir": "http://www.brookings.edu/~/media/Series/jobs%20and%20transit/",
+"Naming": "MetState",
+"NamingDescriptive": "Short name + State.PDF",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Adie Tomer",
+"Elizabeth Kneebone",
+"Robert Puentes",
+"Alan Berube" 
+],
+"Description": "A detailed look at transit coverage and connection to jobs using data from 371 transit providers in the nation's 100 largest metropolitan areas.",
+"Keywords": "opportunity infrastructure" 
+},
+{
+ "PID": 20110709,
+"Product": "The Geography of Immigrant Skills: Educational Profiles of Metropolitan Areas",
+"Dir": "http://www.brookings.edu/~/media/Programs/metro/",
+"Naming": "MetState",
+"NamingDescriptive": "Short name + State, no spaces.PDF",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Gordon F. De Jong",
+"Deborah Roempke Graefe",
+"Matthew Hall",
+"Audrey Singer" 
+],
+"Description": "examines educational attainment among foreign-born adults in 2009 for each of the nation's 100 largest metros and provides a detailed look at the significant role of immigrants in the U.S. economy.",
+"Keywords": "skills demographics" 
+},
+{
+ "PID": 20110713,
+"Product": "Sizing the Clean Economy",
+"Dir": "http://www.brookings.edu/~/media/Series/Clean%20Economy/",
+"Naming": "Code",
+"NamingDescriptive": "FIPS.PDF",
+"States": true,
+"Metros": true,
+"Authors": [
+ "Mark Muro",
+"Jonathan Rothwell",
+"Devashree Saha" 
+],
+"Description": "Establishment-level employment statistics for clean economy industries, assessing the current nature, size, and growth of the clean economy between 2003 and 2010.",
+"Keywords": "innovation clean economy cleantech" 
+},
+{
+ "PID": 20110818,
+"Product": "Transit Access and Zero-Vehicle Households",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Papers/2011/8/18%20transportation%20tomer%20puentes/profiles/",
+"Naming": "Code",
+"NamingDescriptive": "",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Robert Puentes",
+"Adie Tomer" 
+],
+"Description": "A detailed look at transit accessibility for households without vehicles in the nation's largest 100 metropolitan areas.",
+"Keywords": "opportunity infrastructure" 
+},
+{
+ "PID": 20111103,
+"Product": "The Re-Emergence of Concentrated Poverty: Metropolitan Trends in the 2000s",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Papers/2011/11/03%20poverty%20kneebone%20nadeau%20berube/profiles/",
+"Naming": "Code",
+"NamingDescriptive": "FIPS.pdf",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Elizabeth Kneebone",
+"Carey Nadeau",
+"Alan Berube" 
+],
+"Description": "An analysis of data on neighborhood poverty from the 2005-09 American Community Surveys and Census 2000 to show how the economic downturn has affected the size and location of poverty in the top 100 metropolitan areas.",
+"Keywords": "opportunity" 
+},
+{
+ "PID": 20120419,
+"Product": "Housing Costs, Zoning, and Access to High-Scoring Schools",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Papers/2012/4/19%20school%20inequality%20rothwell/profiles/",
+"Naming": "Met",
+"NamingDescriptive": "Short name.pdf",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Jonathan Rothwell" 
+],
+"Description": "An examination of standardized test scores in light of the economic and demographic characteristics near schools reveals the extent to which educational opportunities for students mirror their economic disparities.",
+"Keywords": "skills" 
+},
+{
+ "PID": 20120509,
+"Product": "Locating American Manufacturing: Trends in the Geography of Production",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Reports/2012/5/09%20locating%20american%20manufacturing%20wialh/pdf/",
+"Naming": "Met",
+"NamingDescriptive": "Metro name.pdf",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Susan Helper",
+"Timothy Krueger",
+"Howard Wial" 
+],
+"Description": "A comprehensive analysis ever manufacturing by metropolitan area, featuring data on employment, earnings, and the number of manufacturing establishments.",
+"Keywords": "innovation next economy" 
+},
+{
+ "PID": 20120627,
+"Product": "MetroMonitor",
+"Dir": "http://www.brookings.edu/research/interactives/metromonitor#",
+"Naming": "Mcode",
+"NamingDescriptive": "M{FIPS}-recovery-overall-mv",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Alec Friedhoff",
+"Siddharth Kulkarni" 
+],
+"Description": "An analysis of jobs, output, unemployment, and house prices in the nation's 100 largest metro areas, detailing the severity of the Great Recession, the strength of recovery, and the extent to which each metro area has recovered. The Metro Monitor features an analysis of each indicator in addition to a composite index of performance.   ",
+"Keywords": "macro" 
+},
+{
+ "PID": 20120711,
+"Product": "Where the Jobs Are: Employer Access to Labor by Transit",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Papers/2012/7/transit%20labor%20tomer/pdf/",
+"Naming": "Met",
+"NamingDescriptive": "Short name (w underscores).pdf",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Adie Tomer" 
+],
+"Description": "An examination of metro-level data on the jobs located near transit, the number of workers within reach of job locations, and how these trends vary across industries and across cities and suburbs.",
+"Keywords": "opportunity infrastructure" 
+},
+{
+ "PID": 20120718,
+"Product": "The Search for Skills: Demand for H-1B Immigrant Workers in U.S. Metropolitan Areas",
+"Dir": "http://www.brookings.edu/research/reports/2012/07/18-h1b-visas-labor-immigration#",
+"Naming": "Mcode",
+"NamingDescriptive": "M + FIPS",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Neil G. Ruiz",
+"Jill H. Wilson",
+"Shyamali Choudhury" 
+],
+"Description": "An exploration of the H-1B program at the metropolitan level, assessing demand for these workers by place and type of business and urging leaders to incorporate these regional perspectives into policy development.",
+"Keywords": "skills demographics " 
+},
+{
+ "PID": 20120829,
+"Product": "Education, Job Openings, and Unemployment in Metropolitan America",
+"Dir": "http://www.brookings.edu/research/papers/2012/08/29-education-gap-rothwell#",
+"Naming": "Mcode",
+"NamingDescriptive": "M + FIPS",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Jonathan Rothwell" 
+],
+"Description": "A labor market analysis of metropolitan-level data on the supply of educated labor, employer demand for skilled workers, and other economic trends affecting unemployment rates.",
+"Keywords": "skills opportunity" 
+},
+{
+ "PID": 20121025,
+"Product": "Global Gateways: International Aviation in Metropolitan America",
+"Dir": "http://www.brookings.edu/research/interactives/aviation",
+"Naming": "",
+"NamingDescriptive": "",
+"States": false,
+"Metros": false,
+"Authors": [
+ "Adie Tomer",
+"Robert Puentes",
+"Zachary Neal" 
+],
+"Description": "Tracks and analyzes international commercial air travel passenger levels within the United States' global aviation network. The first study of its kind, this report ranks 1) the 100 largest metropolitan areas for the number of passengers traveling to and from international destinations through their airports; 2) the most popular international metro areas based on passengers traveling to and from the U.S.; and 3) the most trafficked corridors between U.S. and international metropolitan areas.",
+"Keywords": "global" 
+},
+{
+ "PID": 20121130,
+"Product": "Global MetroMonitor 2012: Slowdown, Recovery, and Interdependence",
+"Dir": "http://www.brookings.edu/research/interactives/global-metro-monitor-3",
+"Naming": "",
+"NamingDescriptive": "",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Emilia Istrate and Carey Anne Nadeau" 
+],
+"Description": "An analysis of employment, population, and GDP per capita trends in the world’s 300 largest metropolitan economies in the aftermath of the 2007 global recession.",
+"Keywords": "macro global" 
+},
+{
+ "PID": 20130201,
+"Product": "Patenting Prosperity: Invention and Economic Performance in the United States and its Metropolitan Areas",
+"Dir": "http://www.brookings.edu/research/interactives/2013/metropatenting",
+"Naming": "",
+"NamingDescriptive": "",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Jonathan Rothwell",
+"José Lobo",
+"Deborah Strumsky",
+"Mark Muro" 
+],
+"Description": "This report ranks the nation’s metropolitan areas on patenting levels and growth from 1980 to 2012, and examines the importance of patents as a measure of invention and economic growth.",
+"Keywords": "innovation clean economy cleantech" 
+},
+{
+ "PID": 20130301,
+"Product": "A New Alignment: Strengthening America's Commitment to Passenger Rail",
+"Dir": "http://www.brookings.edu/research/interactives/2013/amtrakroutes",
+"Naming": "",
+"NamingDescriptive": "",
+"States": false,
+"Metros": false,
+"Authors": [
+ "Robert Puentes",
+"Adie Tomer",
+"Joseph Kane" 
+],
+"Description": "An analysis of U.S. passenger rail by region, providing Amtrak ridership levels for each of the largest 100 metropolitan areas, as well as route operating costs from 1997 to 2012.",
+"Keywords": "infrastructure" 
+},
+{
+ "PID": 20130610,
+"Product": "The Hidden STEM Economy",
+"Dir": "http://www.brookings.edu/~/media/Research/Files/Reports/2013/06/10%20stem%20economy%20rothwell/pdf/",
+"Naming": "MetroState",
+"NamingDescriptive": "Long name _State.pdf",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Jonathan Rothwell" 
+],
+"Description": "A redefinition of STEM (science, technology, engineering, and math) occupations accompanied by data on the role of STEM occupations in the nation’s largest 100 metros using 2011 data on occupations and their knowledge requirements.",
+"Keywords": "skills innovation opportunity" 
+},
+{
+ "PID": 20130917,
+"Product": "Export Nation 2013",
+"Dir": "http://www.brookings.edu/~/media/multimedia/interactives/2013/ExportNation/data/profiles/",
+"Naming": "Met",
+"NamingDescriptive": "Short name.pdf",
+"States": true,
+"Metros": true,
+"Authors": [
+ "Brad McDearman",
+"Ryan Donahue",
+"Nick Marchio" 
+],
+"Description": "Detailed data on U.S. export production by industry (including both the goods and services sectors) in 2012 and over time.",
+"Keywords": "global" 
+},
+{
+ "PID": 20131022,
+"Product": "Metro-to-Metro: Global and Domestic Goods Trade in Metropolitan America ",
+"Dir": "http://www.brookings.edu/~/media/multimedia/interactives/2013/MetroFreight/profiles/",
+"Naming": "Code",
+"NamingDescriptive": "",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Robert Puentes",
+"Adie Tomer",
+"Joseph Kane" 
+],
+"Description": "This discussion paper marks the first time metropolitan areas can begin to explore their place in domestic and global goods trade networks by tracking which regions generate the most international trade and the level of trade within the much larger domestic marketplace.",
+"Keywords": "global infrastructure" 
+},
+{
+ "PID": 20131107,
+"Product": "Metro North America: Cities and Metros as Hubs of Advanced Industries and Integrated Goods Trade",
+"Dir": "http://www.brookings.edu/~/media/Multimedia/Interactives/2013/MetroNorthAmerica/profiles/",
+"Naming": "Mcode",
+"NamingDescriptive": "",
+"States": false,
+"Metros": true,
+"Authors": [
+ "Alan Berube",
+"Joseph Parilla" 
+],
+"Description": "Twenty years after the enactment of the North American Free Trade Agreement, advanced manufacturing sectors today extend their supply chains across the United States, Mexico, and Canada, anchored by productive metropolitan hubs in all three countries. This first-ever analysis of production and trade among North America’s cities and metropolitan areas reveals the new North American map of goods production and consumption.",
+"Keywords": "global" 
+} 
+]

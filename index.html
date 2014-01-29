@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Data Resources at Brookings</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="eitcstyle.css">
+  <script type="text/javascript" src="angularmin.js"></script>
+  <script type="text/javascript" src="angularanimatemin.js"></script>
+ 
+  <script type="text/javascript" src="services.js"></script>
+  <script type="text/javascript" src="directives.js"></script>
+  <script type="text/javascript" src="controllers.js"></script>
+
+  <script type="text/javascript" src="../../DataViz/MetroNorthAmerica/d3v3min.js"></script>
+  <!--<script type="text/javascript" src="json2.js"></script>-->
+</head>
+<body>
+<div ng-app="METRODAT" ng-controller="metrodat_ctrl" id="ng-app">
+	<div style="width:100%">
+		<div class="group" style="margin-top:5px;float:left;border:0px solid #d1d1d1;width:100%;padding-left:0%;padding-right:0%;padding-bottom:25px;">
+		
+			<!--<h3>{{selectionHeader}}</h3>-->
+		<h1 class="lato light">Explore Data From The Metropolitan Policy Program</h1>
+			
+		<div class="metroSelect group">
+			<h2 class="lato light white fs-big" style="padding:0px 0px 0px 1.75%;margin:0px 0px 8px 0px;">By Place</h2>
+
+			<div style="height:14px;float:right;width:35%;margin:8px 6px 0px 0px;background:#163a4c;padding:2px 2px 2px 6px;">
+				<input type="text" ng-model="metkeyword" placeholder="Search for your metro area" style="width:100%;text-align:left;color:#ffffff"></input>
+			</div>
+
+
+
+			<div style="background:transparent;width:94%;padding-right:50px;height:75%;position:absolute;left:3%;top:19%;overflow-y:scroll;">
+				<p class="animate-repeat lato menu-item no-select" 
+				   ng-repeat="m in metros | filter:metkeyword track by m.MCode"
+				   ng-mouseDown='setMetro(m)'>
+				   {{m.ShortName}}
+				</p>
+			</div>
+			<div us-map style="float:left;width:65%;height:85%;clear:left;"></div>
+		</div>
+
+		<div class="buttons group">
+			<h2 class="lato light white fs-big" style="padding:0px 0px 0px 1.75%;margin:0px 0px 8px 0px;">By Topic</h2>
+			<ul>
+				<li menu-button class="button no-select lato" ng-repeat="n in menuCategories" ng-mousedown="setButton(n)">
+				</li>
+			</ul>
+		</div>
+
+		<h2 class="lato light" style="margin:0px;padding-top:0px;"><i>Selections<br/></i> Geography: {{metroName}} / Topic: {{search.buttonTitle}} / Report: All reports for topic</h2>
+			<!--<div class="menu group"><select ng-model="metroCode" ng-options="m.MCode as m.MetroName for m in metros"></select></div>-->
+			
+			<div ng-show="metsel" style="width:100%;padding:0px 0px 3px 0px;clear:both;float:left;" class="group">
+				<p style="float:left;padding:1px 5px 1px 5px;margin:3px 3px 3px 0px;color:rgb(5,55,105);border:0px solid #C23930;background:#C23930;cursor:pointer;color:#ffffff;" ng-show="metsel">Click to select:</p>
+
+			</div>
+			
+			<div style="clear:both;float:left;width:100%;height:1px;background:#d1d1d1;border-bottom:1px solid #f5f5f5;margin:10px auto 10px auto;"></div>
+
+
+
+			<div style="clear:both;padding:0px;margin:10px 0px 0px 0px;float:left;" class="options group">
+				<div style="margin-bottom:10px;float:left;">
+				<p style="float:left;margin-right:0px;">Sort results by:</p>
+				<div style="float:left">
+					<input type="checkbox" ng-model="reportSortName" ng-click="updateNameSort($event)" style="float:left"></input>
+					<p style="float:left">Report name</p>
+				</div>
+
+				<div style="float:left">
+					<input type="checkbox" ng-model="reportSortDate" ng-click="updateDateSort($event)" style="float:left"></input>
+					<p style="float:left;margin-right:10px;">Release date (newest first)</p>
+				</div>
+			</div>
+				<input type="text" ng-model="search.input" class="input-alone" style="float:left" placeholder="Filter reports by keyword or author"></input>
+			</div>		
+
+			<div style="float:left;" profile-gen='r' ng-repeat="r in reports | filter:reportFilter | reportOrder:reportSortName track by r.PID">
+				<!--<a class="profileLink" href={{r|linkBuilder:metro}}>{{metro.FirstCity}} Profile >></a>-->
+				<div profile-links='r' metro='metro'></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
